@@ -1,5 +1,6 @@
 package hello.advanced.trace.hellotrace;
 
+import hello.advanced.trace.HelloTraceV1;
 import hello.advanced.trace.TraceStatus;
 import org.junit.jupiter.api.Test;
 
@@ -17,16 +18,5 @@ public class HelloTraceV1Test {
         HelloTraceV1 trace = new HelloTraceV1();
         TraceStatus status = trace.begin("hello");
         trace.exception(status, new IllegalStateException());
-    }
-
-    @Test
-    void stringAddSpaceMethod() {
-        String prefix = "-->";
-        int level = 1;
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < level; i++) {
-            sb.append( (i == level - 1) ? "|" + prefix : "| ");
-        }
-        sb.toString();
     }
 }
