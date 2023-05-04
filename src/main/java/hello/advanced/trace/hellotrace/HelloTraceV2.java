@@ -1,11 +1,15 @@
-package hello.advanced.trace;
+package hello.advanced.trace.hellotrace;
 
+import hello.advanced.trace.TraceId;
+import hello.advanced.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+import static java.lang.System.*;
+
 @Slf4j
 @Component
-public class HelloTraceV1 {
+public class HelloTraceV2 {
 
     private static final String START_PREFIX = "-->";
     private static final String COMPLETE_PREFIX = "<--";
@@ -13,9 +17,17 @@ public class HelloTraceV1 {
 
     public TraceStatus begin(String message) {
         TraceId traceId = new TraceId();
-        Long startTimeMs = System.currentTimeMillis();
+        Long startTimeMs = currentTimeMillis();
         log.info("[{}] {}{}", traceId.getId(), addSpace(START_PREFIX, traceId.getLevel()), message);
         return new TraceStatus(traceId, startTimeMs, message);
+    }
+
+    // V2에서 추가
+    public TraceStatus beginSync(TraceId beforeTraceId, String message) {
+        TraceId nextId = beforeTraceId.createNextId();
+        Long startTimeMs = currentTimeMillis();
+        log.info("[{}] {}{}", nextId.getId(), addSpace(START_PREFIX, nextId.getLevel()), message);
+        return new TraceStatus(nextId, startTimeMs, message);
     }
 
     public void end(TraceStatus status) {
@@ -27,7 +39,7 @@ public class HelloTraceV1 {
     }
 
     private void complete(TraceStatus status, Exception e) {
-        Long stopTimeMs = System.currentTimeMillis();
+        Long stopTimeMs = currentTimeMillis();
         long resultTimeMs = stopTimeMs - status.getStartTimeMs();
         TraceId traceId = status.getTraceId();
         if (e == null) {
