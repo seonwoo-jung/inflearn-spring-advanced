@@ -28,6 +28,7 @@ public class ThreadLocalServiceTest {
         threadB.setName("thread-B");
 
         threadA.start();
+        log.info("{} start...", threadA);
 //        sleep(2000); // 동시성 문제 발생X
         sleep(100); // 동시성 문제 발생O
         threadB.start();
