@@ -11,5 +11,10 @@
         <module name="advanced.test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="proxy" target="11" />
+      <module name="proxy.main" target="11" />
+      <module name="proxy.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
