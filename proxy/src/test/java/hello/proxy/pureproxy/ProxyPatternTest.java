@@ -9,8 +9,9 @@ public class ProxyPatternTest {
 
     @Test
     void noProxyTest() {
-        RealSubject realSubject = new RealSubject();
-        ProxyPatternClient client = new ProxyPatternClient(realSubject);
+//        RealSubject realSubject = new RealSubject();
+//        ProxyPatternClient client = new ProxyPatternClient(realSubject);
+        ProxyPatternClient client = new ProxyPatternClient(new RealSubject());
 
         client.execute();
         client.execute();
@@ -19,8 +20,7 @@ public class ProxyPatternTest {
 
     @Test
     void cacheProxyTest() {
-        RealSubject realSubject = new RealSubject();
-        CacheProxy cacheProxy = new CacheProxy(realSubject);
+        CacheProxy cacheProxy = new CacheProxy(new RealSubject());
         ProxyPatternClient client = new ProxyPatternClient(cacheProxy);
         client.execute();
         client.execute();
