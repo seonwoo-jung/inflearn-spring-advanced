@@ -17,6 +17,7 @@ public class JdkDynamicProxyTest {
 
         AInterface proxy = (AInterface) Proxy.newProxyInstance(AInterface.class.getClassLoader(), new Class[]{AInterface.class}, handler);
 
+        // handler의 invoke 메서드 호출
         proxy.call();
 
         log.info("targetClass = {}", target.getClass());
@@ -28,9 +29,7 @@ public class JdkDynamicProxyTest {
         BInterface target = new BImpl();
         TimeInvocationHandler handler = new TimeInvocationHandler(target);
 
-        BInterface proxy = (BInterface) Proxy.newProxyInstance(BInterface.class.getClassLoader(),
-                                                               new Class[]{BInterface.class},
-                                                               handler);
+        BInterface proxy = (BInterface) Proxy.newProxyInstance(BInterface.class.getClassLoader(), new Class[]{BInterface.class}, handler);
 
         proxy.call();
 

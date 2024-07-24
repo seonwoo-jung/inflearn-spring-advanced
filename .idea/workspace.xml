@@ -4,23 +4,122 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a54d8a-e4f4-4fea-a193-cc8d55911ae6" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="28a54d8a-e4f4-4fea-a193-cc8d55911ae6" name="변경" comment="템플릿 메서드, 전략 패턴, 템플릿 콜백 패턴 학습 완료">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/AopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/exam/ExamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/exam/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/exam/annotation/Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/exam/annotation/Trace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/exam/aop/RetryAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/exam/aop/TraceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/internalcall/CallServiceV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/internalcall/CallServiceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/internalcall/CallServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/internalcall/CallServiceV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/internalcall/InternalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/internalcall/aop/CallLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/member/annotation/ClassAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/member/annotation/MethodAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/AspectV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/AspectV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/AspectV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/AspectV4Pointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/AspectV5Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/AspectV6Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/order/aop/Pointcuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/AopApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/AopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/exam/ExamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/internalcall/CallServiceV0Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/internalcall/CallServiceV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/internalcall/CallServiceV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/internalcall/CallServiceV3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/pointcut/ExecutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/proxyvs/ProxyCastingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/proxyvs/ProxyDITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/proxyvs/code/ProxyDIAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/advice/LogTraceAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/advice/ProxyFactoryConfigV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/advice/ProxyFactoryConfigV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v4_postprocessor/postprocessor/BeanPostProcessorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v4_postprocessor/postprocessor/PackageLogTracePostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v5_autoproxy/AutoProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v6_aop/aspect/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v6_aop/aspect/aspect/LogTraceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/advisor/AdvisorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/advisor/MultiAdvisorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/postprocessor/BasicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/postprocessor/BeanPostProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/JdkDynamicProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/JdkDynamicProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/proxyfactory/ProxyFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/proxyfactory/ProxyFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/advanced">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/aop">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/proxy">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/aop">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,27 +140,266 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2jZUVdgJM0ZNDOxSLnqggi1xIS5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/seonwoo_jung/Programming/workspace/inflearn-spring-advanced&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.AopTest.aopInfo.executor": "Run",
+    "Gradle.AopTest.exception.executor": "Run",
+    "Gradle.AopTest.executor": "Run",
+    "Gradle.AopTest.success.executor": "Run",
+    "Gradle.CallServiceV0Test.external.executor": "Run",
+    "Gradle.CallServiceV0Test.internal.executor": "Run",
+    "Gradle.CallServiceV1Test.external.executor": "Run",
+    "Gradle.CallServiceV2Test.external.executor": "Run",
+    "Gradle.CallServiceV3Test.external.executor": "Run",
+    "Gradle.ExamTest.test.executor": "Run",
+    "Gradle.ExecutionTest.allMatch.executor": "Run",
+    "Gradle.ExecutionTest.argsMatch.executor": "Run",
+    "Gradle.ExecutionTest.argsMatchAll.executor": "Run",
+    "Gradle.ExecutionTest.argsMatchComplex.executor": "Run",
+    "Gradle.ExecutionTest.argsMatchNoArgs.executor": "Run",
+    "Gradle.ExecutionTest.argsMatchStar.executor": "Run",
+    "Gradle.ExecutionTest.exactMatch.executor": "Run",
+    "Gradle.ExecutionTest.executor": "Run",
+    "Gradle.ExecutionTest.nameMatch.executor": "Run",
+    "Gradle.ExecutionTest.nameMatchFalse.executor": "Run",
+    "Gradle.ExecutionTest.nameMatchStar1.executor": "Run",
+    "Gradle.ExecutionTest.nameMatchStar2.executor": "Run",
+    "Gradle.ExecutionTest.packageExactFalse.executor": "Run",
+    "Gradle.ExecutionTest.packageExactMatch1.executor": "Run",
+    "Gradle.ExecutionTest.packageExactMatch2.executor": "Run",
+    "Gradle.ExecutionTest.packageMatchSubPackage1.executor": "Run",
+    "Gradle.ExecutionTest.packageMatchSubPackage2.executor": "Run",
+    "Gradle.ExecutionTest.printMethod.executor": "Run",
+    "Gradle.ExecutionTest.typeExactMatch.executor": "Run",
+    "Gradle.ExecutionTest.typeMatchInternal.executor": "Run",
+    "Gradle.ExecutionTest.typeMatchNoSuperTypeMethodFalse.executor": "Run",
+    "Gradle.ExecutionTest.typeMatchSuperType.executor": "Run",
+    "Gradle.ProxyCastingTest.cglibProxy.executor": "Run",
+    "Gradle.ProxyCastingTest.jdkProxy.executor": "Run",
+    "Gradle.ProxyDITest.go.executor": "Run",
+    "Gradle.aop 빌드.executor": "Run",
+    "JUnit.AdvisorTest.advisorTest1.executor": "Run",
+    "JUnit.AdvisorTest.advisorTest2.executor": "Run",
+    "JUnit.AdvisorTest.advisorTest3.executor": "Run",
+    "JUnit.BasicTest.basicConfig.executor": "Run",
+    "JUnit.BeanPostProcessorTest.basicConfig.executor": "Run",
+    "JUnit.CglibTest.cglib.executor": "Run",
+    "JUnit.JdkDynamicProxyTest.dynamicA.executor": "Run",
+    "JUnit.JdkDynamicProxyTest.dynamicB.executor": "Run",
+    "JUnit.JdkDynamicProxyTest.executor": "Run",
+    "JUnit.MultiAdvisorTest.multiAdvisorTest1.executor": "Run",
+    "JUnit.MultiAdvisorTest.multiAdvisorTest2.executor": "Run",
+    "JUnit.ProxyFactoryTest.concreteProxy.executor": "Run",
+    "JUnit.ProxyFactoryTest.interfaceProxy.executor": "Run",
+    "JUnit.ProxyFactoryTest.proxyTargetClass.executor": "Run",
+    "JUnit.ReflectionTest.executor": "Run",
+    "JUnit.ReflectionTest.reflection1.executor": "Run",
+    "JUnit.ReflectionTest.reflection2.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AopApplication.executor": "Run",
+    "Spring Boot.ProxyApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Programming/workspace/inflearn-spring-advanced/aop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.aop.internalcall" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.aop.internalcall" />
+      <recent name="hello.aop.order.aop" />
+      <recent name="hello.aop.order" />
+      <recent name="hello.proxy.postprocessor" />
+      <recent name="hello.proxy.config.v3_proxyfactory.advice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ProxyDITest.go">
+    <configuration name="CallServiceV2Test.external" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.internalcall.CallServiceV2Test.external&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CallServiceV3Test.external" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.internalcall.CallServiceV3Test.external&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyCastingTest.cglibProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.proxyvs.ProxyCastingTest.cglibProxy&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyCastingTest.jdkProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.proxyvs.ProxyCastingTest.jdkProxy&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyDITest.go" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.proxyvs.ProxyDITest.go&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AdvancedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="advanced.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.advanced.AdvancedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ProxyDITest.go" />
+        <item itemvalue="Gradle.ProxyCastingTest.cglibProxy" />
+        <item itemvalue="Gradle.ProxyCastingTest.jdkProxy" />
+        <item itemvalue="Gradle.CallServiceV3Test.external" />
+        <item itemvalue="Gradle.CallServiceV2Test.external" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,10 +420,23 @@
       <workItem from="1721618055715" duration="665000" />
       <workItem from="1721618734862" duration="63000" />
       <workItem from="1721622983284" duration="104000" />
+      <workItem from="1721637804247" duration="1888000" />
+      <workItem from="1721642444008" duration="1132000" />
+      <workItem from="1721791719019" duration="10119000" />
+      <workItem from="1721805104860" duration="9096000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="템플릿 메서드, 전략 패턴, 템플릿 콜백 패턴 학습 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="템플릿 메서드, 전략 패턴, 템플릿 콜백 패턴 학습 완료" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

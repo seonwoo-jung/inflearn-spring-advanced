@@ -29,11 +29,11 @@ public class ProxyFactoryTest {
 
         assertThat(isAopProxy(proxy)).isTrue();
         assertThat(isJdkDynamicProxy(proxy)).isTrue();
-        assertThat(isCglibProxy(proxy)).isTrue();
+        assertThat(isCglibProxy(proxy)).isFalse();
     }
 
     @Test
-    @DisplayName("구체 클래스가 있으면 CGLIB 사용")
+    @DisplayName("구체 클래스만 있으면 CGLIB 사용")
     void concreteProxy() {
         ConcreteService target = new ConcreteService();
         ProxyFactory proxyFactory = new ProxyFactory(target);
